@@ -32,7 +32,7 @@ class Application(Gtk.Application):
             self.term.spawn_sync(
                 Vte.PtyFlags.DEFAULT,
                 os.environ['HOME'],
-                ["/bin/sh"],
+                ["/bin/bash"],
                 [],
                 GLib.SpawnFlags.DO_NOT_REAP_CHILD,
                 None,
