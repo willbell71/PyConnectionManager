@@ -25,7 +25,7 @@ GTK+ - GUI Framework<br/>
 Virtual Terminate Emulator - a shell widget for GTK+.<br/>
 [GTK+ VTE Reference](https://developer.gnome.org/vte/unstable/VteTerminal.html)
 
-### Pythong GTK+ 3 Tutorial
+### Python GTK+ 3 Tutorial
 
 [GTK+ 3 Python Tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/)
 
