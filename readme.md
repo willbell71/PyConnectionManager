@@ -22,7 +22,7 @@ GTK+ - GUI Framework<br/>
 
 ### VTE
 
-Virtual Terminate Emulator - a shell widget for GTK+.
+Virtual Terminate Emulator - a shell widget for GTK+.<br/>
 [GTK+ VTE Reference](https://developer.gnome.org/vte/unstable/VteTerminal.html)
 
 ### Pythong GTK+ 3 Tutorial
@@ -31,17 +31,17 @@ Virtual Terminate Emulator - a shell widget for GTK+.
 
 ### App UI Design
 
-- 1. Main App Window
+- 1. Main App Window<br/>
 
---- App Title Bar ( OS ) ---
---- Menu - File / Edit / View / Servers / Help ---
---- Toolbar - Local / Connect / Add / Edit / Remove / 
---- Main Area ---
-    --- Left Panel - List of servers ---
-    --- Right Panel - Tab Container ---
-        --- Tab - Bash shell ---
+--- App Title Bar ( OS ) ---<br/>
+--- Menu - File / Edit / View / Servers / Help ---<br/>
+--- Toolbar - Local / Connect / Add / Edit / Remove<br/>
+--- Main Area ---<br/>
+    --- Left Panel - List of servers ---<br/>
+    --- Right Panel - Tab Container ---<br/>
+        --- Tab - Bash shell ---<br/>
 
-- 2. Pop Up ( Add / Edit Connection )
+- 2. Pop Up ( Add / Edit Connection )<br/>
 
---- Tab Container ---
-    --- Tab - Properties ---
+--- Tab Container ---<br/>
+    --- Tab - Properties ---<br/>
