@@ -24,6 +24,8 @@ class Application(Gtk.Application):
             # attach window to application
             self.window = builder.get_object("window")
             self.add_window(self.window)
+            # set window min size
+            self.window.set_size_request(640,480)
             # set signal handler
             builder.connect_signals(AppSignalHandlers())
 
@@ -40,8 +42,9 @@ class Application(Gtk.Application):
             )            
 
             # add terminal to box for layout
-            self.box = builder.get_object("Box")
-            self.box.pack_end(self.term, False, False, 5)
+            self.box = builder.get_object("ConnectionBox")
+            self.box.pack_end(self.term, True, True, 0)
+            self.box.set_hexpand(self.term)
 
             # show
             self.window.show_all()
